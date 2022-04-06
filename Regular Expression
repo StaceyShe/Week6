@@ -1,0 +1,20 @@
+https://regex101.com/r/xc9GkU/1
+
+Regular expression for selecting text between brackets:
+(?<=\[)[\w\s]*
+[Introduction to Data Science](https://bookdown.org/hneth/i2ds/)
+
+Regular expression to search for URL between parenthesis:
+(?<=\()[\S]*(?=\))
+[Introduction to Data Science](https://bookdown.org/hneth/i2ds/)
+
+Regular expression for selectng the URL:
+.+?(?=\|)     OR    [\w\S]*(?=\s\|)
+
+https://magrittr.tidyverse.org/ | A Forward-Pipe Operator for R
+
+https://www.google.com/search?q=web+scraping+in+r&rlz=1C1SQJL_enUS903US903&sxsrf=APq-WBuxfppHjZ44a7Yhi-l1366OB7WaMQ:1649266230544&ei=Ns5NYrO_IMufkPIP58ycqAw&start=10&sa=N&ved=2ahUKEwizsr6--__2AhXLD0QIHWcmB8UQ8NMDegQIARBK&cshid=1649266362792008&biw=1920&bih=1009&dpr=1 | web scraping in r - Google Search
+
+
+Regular expression for selectng after the “|” sign:
+(?<=\s\|\s)[\w\s-]*(?=\n)     OR    (?<=\s\|\s)[\w\S].*(?=\n)
